@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    <title>九宫格子</title>
+    <style type="text/css">
+   .waibian {
+    padding:10px;
+    margin:10px;
+    width: 308px;
+    }
+    .neibu {
+        background-color: orange;
+        margin:0 2px 2px 0;
+        width: 100px;
+        height:100px;
+        border-radius: 10%;
+        float:left;
+
+    }
+    </style>
+</head>
+<body>
+ <div class="waibian">
+     <div class="neibu"></div>
+     <div class="neibu"></div>
+     <div class="neibu"></div>
+     <div class="neibu"></div>
+     <div class="neibu"></div>
+     <div class="neibu"></div>
+     <div class="neibu"></div>
+     <div class="neibu"></div>
+     <div class="neibu"></div>
+ </div>
+</body>
+</html>
